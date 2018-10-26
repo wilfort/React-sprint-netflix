@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import '../assets/css/App.css';
-import Home from './pages/homepage';
-import Card from './pages/showCard';
+import homepage from './pages/homepage';
+import showCard from './pages/showCard';
 import {
   BrowserRouter as Router,
-  Route,
-  Link
+  Route
 } from 'react-router-dom';
 
 class App extends Component {
@@ -14,9 +13,9 @@ class App extends Component {
       <div>
         <Router>
           <div>
-            <Route exact path="/" component={Home}/>
-            <Route exact path='/accueil' component={Home} />
-            <Route exact path="/showCard" component={Card}/>
+            <Route exact path="/" component={homepage}/>
+            <Route exact path='/accueil' component={homepage} />
+            <Route exact path="/showCard" component={showCard}/>
           </div>
         </Router>
       </div>

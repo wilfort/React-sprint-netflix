@@ -25,7 +25,7 @@ class HomePage extends Component {
             <from>
               <Link to="/showCard">
                   <button className="home-button">
-                      <p>Click Me!</p>
+                      Afficher
                   </button>
               </Link>
               </from>
