@@ -10,7 +10,7 @@ import {
 class App extends Component {
   render() {
     return (
-      <div>
+      
         <Router>
           <div>
             <Route exact path="/" component={homepage}/>
@@ -18,7 +18,7 @@ class App extends Component {
             <Route exact path="/showCard" component={showCard}/>
           </div>
         </Router>
-      </div>
+      
     );
   }
 }
